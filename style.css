@@ -4,6 +4,8 @@
     --dark-grayish-magenta: hsl(303, 10%, 53%);
     --light-grayish-magenta: hsl(300, 24%, 96%);
     --white: hsl(0, 0%, 100%);
+
+    -ff-spartan: 'Spartan', sans-serif;
 }
 
 html {
