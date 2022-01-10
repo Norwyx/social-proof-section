@@ -38,8 +38,12 @@ body {
     align-items: center;
 }
 
+.justify-center {
+    justify-content: center;
+}
+
 .container {
-    gap: 3rem;
+    gap: 4rem;
 }
 
 .container__top {
@@ -69,7 +73,7 @@ body {
 .ratings__block {
     background-color: var(--light-grayish-magenta);
     text-align: center;
-    border-radius: 15px;
+    border-radius: 5px;
     padding: 1rem 0;
 }
 
@@ -82,4 +86,44 @@ body {
     font-weight: 700;
     color: var(--very-dark-magenta);
     margin-top: 1rem;
+}
+
+.container__bottom {
+    gap: 1rem;
+}
+
+.reviews__block {
+    background-color: var(--very-dark-magenta);
+    border-radius: 5px;
+}
+
+.block__user {
+    padding: 3rem 0 1.5rem 2rem;
+    gap: 1.5rem;
+}
+
+.avatar--image {
+    width: 45px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.information--name {
+    font-weight: 500;
+    color: var(--white);
+    margin-bottom: 0.2rem;
+}
+
+.information--verification {
+    color: var(--soft-pink);
+}
+
+.block__opinion {
+    padding: 0 2rem 2rem 2rem;
+}
+
+.opinion--text {
+    font-size: 13.5px;
+    line-height: 1.7;
+    color: var(--white);
 }
