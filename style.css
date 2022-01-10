@@ -5,7 +5,7 @@
     --light-grayish-magenta: hsl(300, 24%, 96%);
     --white: hsl(0, 0%, 100%);
 
-    -ff-spartan: 'Spartan', sans-serif;
+    --ff-spartan: 'Spartan', sans-serif;
 }
 
 html {
@@ -16,4 +16,24 @@ html {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+}
+
+body {
+    font-family: var(--ff-spartan);
+    font-size: .9375rem;
+    background-color: var(--white);
+    padding: 5rem 1.5rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
 }
