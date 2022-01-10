@@ -22,7 +22,7 @@ body {
     font-family: var(--ff-spartan);
     font-size: .9375rem;
     background-color: var(--white);
-    padding: 5rem 1.5rem;
+    padding: 5rem 1rem;
 }
 
 .flex {
@@ -36,4 +36,50 @@ body {
 .center {
     justify-content: center;
     align-items: center;
+}
+
+.container {
+    gap: 3rem;
+}
+
+.container__top {
+    gap: 2rem;
+}
+
+.top__text {
+    text-align: center;
+    gap: 1.5rem;
+}
+
+.text--title {
+    font-size: 2rem;
+    line-height: 1;
+    color: var(--very-dark-magenta);
+}
+
+.text--subtitle {
+    line-height: 1.5;
+    color: var(--dark-grayish-magenta);
+}
+
+.top__ratings {
+    gap: 1.5rem;
+}
+
+.ratings__block {
+    background-color: var(--light-grayish-magenta);
+    text-align: center;
+    border-radius: 15px;
+    padding: 1rem 0;
+}
+
+.block__stars {
+    gap: 0.5rem;
+}
+
+.block__description {
+    font-size: .875rem;
+    font-weight: 700;
+    color: var(--very-dark-magenta);
+    margin-top: 1rem;
 }
