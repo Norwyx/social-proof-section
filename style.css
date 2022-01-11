@@ -34,6 +34,7 @@ body {
 }
 
 .center {
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -56,14 +57,20 @@ body {
 }
 
 .text--title {
+    max-width: 30rem;
+    width: 100%;
     font-size: 2rem;
     line-height: 1;
     color: var(--very-dark-magenta);
+    margin: auto;
 }
 
 .text--subtitle {
+    max-width: 30rem;
+    width: 100%;
     line-height: 1.5;
     color: var(--dark-grayish-magenta);
+    margin: auto;
 }
 
 .top__ratings {
@@ -71,10 +78,12 @@ body {
 }
 
 .ratings__block {
+    max-width: 28rem;
+    width: 100%;
     background-color: var(--light-grayish-magenta);
-    text-align: center;
     border-radius: 5px;
     padding: 1rem 0;
+    margin: auto;
 }
 
 .block__stars {
@@ -93,8 +102,11 @@ body {
 }
 
 .reviews__block {
+    max-width: 28rem;
+    width: 100%;
     background-color: var(--very-dark-magenta);
     border-radius: 5px;
+    margin: auto;
 }
 
 .block__user {
