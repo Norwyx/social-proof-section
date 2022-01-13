@@ -139,3 +139,55 @@ body {
     line-height: 1.7;
     color: var(--white);
 }
+
+/* Responsive */
+/* 910px and above */
+@media (min-width: 56.875rem) {
+    body {
+        padding: 5rem 3rem;
+    }
+
+    .container__top {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 4rem;
+        flex: 1;
+    }
+
+    .top__text {
+        text-align: left;
+        gap: 1rem;
+    }
+
+    .text--title {
+        font-size: 3rem;
+    }
+
+    .text--subtitle {
+        max-width: 25rem;
+        margin: 0;
+    }
+
+    .ratings__block {
+        min-width: 400px;
+        width: 100%;
+        padding: 1rem 0;
+    }
+
+    .rating-1 {
+        margin-left: -4rem;
+    }
+
+    .rating-2 {
+        margin-left: -2rem;
+    }
+
+    .container__bottom {
+        flex-direction: row;
+    }
+
+    .review-2 {
+        margin: 0;
+    }
+}
