@@ -211,3 +211,36 @@ body {
         padding: 7rem 7rem;
     }
 }
+
+/* 1440px and above */
+@media (min-width: 90rem) {
+    body {
+        padding: 8rem 8rem;
+        overflow-y: hidden;
+    }
+    
+    .text--subtitle {
+        max-width: 30rem;
+        width: 100%;
+    }
+
+    .ratings__block {
+        min-width: 450px;
+        gap: 2rem;
+        padding: 1.5rem 0;
+    }
+
+    .container__bottom {
+        overflow-y: visible;
+        gap: 2rem;
+    }
+
+    .review-2 {
+        margin-top: 2rem;
+    }
+
+    .review-3 {
+        overflow-y: visible;
+        margin-bottom: -1rem;   
+    }
+}
