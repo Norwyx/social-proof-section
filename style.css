@@ -191,3 +191,16 @@ body {
         margin: 0;
     }
 }
+
+/* 1100px and above */
+@media (min-width: 68.75rem) {
+    .ratings__block {
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .block__description {
+        margin-top: 0;
+        margin-bottom: -0.3rem;
+    }
+}
