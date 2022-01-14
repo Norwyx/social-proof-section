@@ -244,3 +244,13 @@ body {
         margin-bottom: -1rem;   
     }
 }
+
+/* 1500px and above */
+@media (min-width: 93.75rem) {
+    body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
