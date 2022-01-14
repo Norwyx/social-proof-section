@@ -204,3 +204,10 @@ body {
         margin-bottom: -0.3rem;
     }
 }
+
+/* 1200px and above */
+@media (min-width: 75rem) {
+    body {
+        padding: 7rem 7rem;
+    }
+}
